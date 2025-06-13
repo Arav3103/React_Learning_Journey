@@ -8,7 +8,7 @@ type ToDoItem = {
 };
 const UseObjectInUseState: FC = () => {
   const [todoItem, setTodoItem] = useState<ToDoItem>(() => {
-    console.log("Component rendered");
+    // console.log("Component rendered");
     return { name: "", category: { subCategory: "" } };
   });
 
